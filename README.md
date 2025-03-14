@@ -4,17 +4,6 @@
 
 The module **terraform-module-ad-gpo** is intended to create and manage a Group Policy object in a local AD. Optionally the Group Policy object can be linked to one or more Organisational Units and security settings can be configured within the Group Policy object.  
 
-#### Tasks & ToDos
-
-- [x] Create and manage a Group Policy object
-- [x] Create and manage one or more OU links for the Group Policy object
-- [x] Create and manage security settings available in the Group Policy object
-- [ ] \(Optional) Apply input variable validation rules if necessary to match available resource values
-- [ ] \(Optional) Apply input variable validation rules if necessary to match business standards
-- [x] Create and manage modules outputs for the GPO, the links and the security settings
-- [x] Document module with README.md
-- [ ] \(Optional) Review code regularly for possible improvements and updates
-  
 ### Requirements
 
 | Name | Version |
