@@ -2,7 +2,7 @@
 
 ### Description
 
-The module **terraform-module-ad-gpo** is intended to create and manage a Group Policy object in a local AD. Optionally the Group Policy object can be linked to one or more Organisational Units and security settings can be configured within the Group Policy object.  
+The module **terraform-module-ad-gpo** is intended to create and manage a Group Policy object in an On-Premise Active Directory. Optionally the Group Policy object can be linked to one or more Organisational Units and security settings can be configured within the Group Policy object.  
 
 ### Requirements
 
@@ -49,6 +49,12 @@ output "ad_gpo" {
 }
 ```
 </details>
+
+### Known Issues
+
+Known issues are documented with the GitHub repo's issues functionality. Please filter the issues by **Types** and select **Known Issue** to get the appropriate issues and read the results carefully before using the module to avoid negative impacts on your infrastructure.  
+  
+<a name="known_issues"></a> [list of Known Issues](https://github.com/uplink-systems/terraform-module-ad-gpo/issues?q=type%3A%22known%20issue%22)
   
 ## Notes
 
